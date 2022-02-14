@@ -35,6 +35,7 @@ export class AdminLoginComponent implements OnInit {
   public inputError:string [] = [];
 
   ngOnInit(): void {
+
   }
 
   public onSubmit():any{

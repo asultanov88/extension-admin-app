@@ -5,20 +5,19 @@ import { HttpClientModule } from '@angular/common/http';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { AdminLoginComponent } from './login/admin-login/admin-login.component';
-import { AdminDashboardComponent } from './dashboard/admin-dashboard/admin-dashboard.component';
+import { DashboardModule } from './dashboard/dashboard.module';
 
 @NgModule({
   declarations: [
     AppComponent,
     AdminLoginComponent,
-    AdminDashboardComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     FormsModule,
     ReactiveFormsModule,
-    HttpClientModule
+    HttpClientModule,    
   ],
   providers: [],
   bootstrap: [AppComponent]

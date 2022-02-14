@@ -1,0 +1,39 @@
+.navigation-wrapper{
+    display: flex;
+    justify-content: flex-start;
+    background-color: beige;
+}
+
+.navbar-brand{
+    cursor:default;
+    font-weight: 700;
+    padding-left: 20px;
+    padding-right: 50px;
+}
+
+.nav-list{
+    display: flex;
+}
+
+.nav-item{
+    padding-left: 10px;
+    padding-right: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+.nav-item:hover{
+    color: darkslategray;
+    cursor: pointer;  
+    text-shadow: 0 0 1px black;
+}
+
+.active-link{
+    color: blueviolet;
+}
+
+.body-wrapper{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+

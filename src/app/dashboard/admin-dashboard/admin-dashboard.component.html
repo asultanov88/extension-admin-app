@@ -1,1 +1,14 @@
-<p>admin-dashboard works!</p>
+<div class="navigation-wrapper navbar">
+    <a class="navbar-brand">Blazer Admin Dashboard</a>
+        <div class="nav-list">
+            <a [routerLink]="['/create-client']" [routerLinkActive]="['active-link']" class="nav-item">
+                Create New Client
+            </a>
+            <a class="nav-item">
+                Create New Admin User
+            </a>
+        </div>
+</div>
+<div class="body-wrapper">
+    <router-outlet></router-outlet>
+</div>
